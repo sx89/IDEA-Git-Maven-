@@ -59,3 +59,20 @@ sout (system.out.println)
 
 ![](pic/Snipaste_2019-07-06_14-52-58_看图王.png)
 
+## Git
+
++ 远程覆盖本地代码
+
+git fetch
+git reset --hard origin master
+
++ git 撤销commit 但未push的代码
+
+git log
+git reset --hard(如果想保留修改内容而不是强制覆盖,则不加--hard) commitID
+
++ 撤销 为commit的修改
+
+git status  
+
+返回的英文里面告诉你了用什么命令撤回
