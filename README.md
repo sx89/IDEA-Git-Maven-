@@ -76,3 +76,7 @@ git reset --hard(如果想保留修改内容而不是强制覆盖,则不加--har
 git status  
 
 返回的英文里面告诉你了用什么命令撤回
+
++ rebase
+
+git rebase -i HEAD~4 或者 git rebase -i  commitID(如果我想把1,2,3合并,我的commitId要写3的下一个,即4)
