@@ -1,7 +1,15 @@
-# IDEA-Git-Maven-
+<!-- TOC -->
+
+- [1. IDEA-Maven](#1-IDEA-Maven)
+  - [1.1. IDEA](#11-IDEA)
+  - [1.2. Maven](#12-Maven)
+
+<!-- /TOC -->
+
+# 1. IDEA-Maven
 磨刀不误砍柴工,整理一些拓展知识,基础的网上一大片,就不整理了
 
-## IDEA
+## 1.1. IDEA
 + 忽略大小写补全代码:
 
 ![](pic/Snipaste_2019-07-06_21-20-02.jpg)
@@ -59,24 +67,4 @@ sout (system.out.println)
 
 ![](pic/Snipaste_2019-07-06_14-52-58_看图王.png)
 
-## Git
-
-+ 远程覆盖本地代码
-
-git fetch
-git reset --hard origin master
-
-+ git 撤销commit 但未push的代码
-
-git log
-git reset --hard(如果想保留修改内容而不是强制覆盖,则不加--hard) commitID
-
-+ 撤销 为commit的修改
-
-git status  
-
-返回的英文里面告诉你了用什么命令撤回
-
-+ rebase
-
-git rebase -i HEAD~4 或者 git rebase -i  commitID(如果我想把1,2,3合并,我的commitId要写3的下一个,即4)
+## 1.2. Maven
